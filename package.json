@@ -9,13 +9,41 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@aws-sdk/credential-providers": "^3.335.0",
+    "@emotion/server": "^11.11.0",
+    "@material-ui/core": "^4.12.4",
+    "@mongodb-js/zstd": "^1.1.0",
+    "@next/bundle-analyzer": "^13.4.8",
+    "apollo-client": "^2.6.10",
+    "apollo-server": "^3.12.0",
+    "apollo-server-micro": "^3.12.0",
     "autoprefixer": "10.4.14",
+    "aws4": "^1.12.0",
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
     "eslint": "8.40.0",
     "eslint-config-next": "13.4.1",
+    "formik": "^2.4.2",
+    "gcp-metadata": "^5.2.0",
+    "graphql": "^16.6.0",
+    "graphql-request": "^6.1.0",
+    "graphql-yoga": "^4.0.0",
+    "jsonwebtoken": "^9.0.1",
+    "kerberos": "^2.0.1",
+    "micro": "^10.0.1",
+    "mongodb": "^3.5.9",
+    "mongodb-client-encryption": "^2.8.0",
+    "mongoose": "^7.2.0",
     "next": "13.4.1",
     "postcss": "8.4.23",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tailwindcss": "3.3.2"
+    "reflect-metadata": "^0.1.13",
+    "snappy": "^7.2.2",
+    "tailwindcss": "3.3.2",
+    "tss-react": "^4.8.6"
+  },
+  "devDependencies": {
+    "typescript": "5.0.4"
   }
 }
